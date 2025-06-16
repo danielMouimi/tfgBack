@@ -25,6 +25,7 @@ Route::get('/users/{id}', [UsuarioController::class, 'getById']);
 Route::get('/tours', [TourController::class, 'index']);
 Route::get('/etapas/{id}', [EtapaTourController::class, 'getById']);
 Route::get('/destinos', [DestinoController::class, 'index']);
+Route::post('/newdestino', [DestinoController::class, 'store']);
 Route::get('destinos/{name}', [DestinoController::class, 'getByName']);
 Route::get('destinosname/{id}', [DestinoController::class, 'getById']  );
 Route::get('/ofertas', [OfertaController::class, 'index']);
