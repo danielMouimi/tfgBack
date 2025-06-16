@@ -5,7 +5,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:5174'],
+    'allowed_origins' => ['https://tfgback-production-3683.up.railway.app'],
 
     'allowed_origins_patterns' => [],
 
